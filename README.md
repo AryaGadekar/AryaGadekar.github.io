@@ -1,4 +1,6 @@
-## Welcome to GitHub Pages
+Arya Gadekar
+
+Data Analyst
 
 You can use the [editor on GitHub](https://github.com/AryaGadekar/AryaGadekar.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
 
