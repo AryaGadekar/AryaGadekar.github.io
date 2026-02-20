@@ -1,111 +1,58 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<title>Arya | Revenue Intelligence & Analytics</title>
-<link rel="stylesheet" href="style.css">
-</head>
-<body>
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #ffffff;
+  color: #1F1F1F;
+  line-height: 1.6;
+}
 
-<section class="hero">
-  <h1>Arya</h1>
-  <p>Data Analyst focused on revenue intelligence, growth strategy, and performance optimization.</p>
-  <a href="#projects" class="btn">View Work</a>
-</section>
+section {
+  padding: 80px 10%;
+}
 
-<section class="about">
-  <h2>About</h2>
-  <p>
-    I build executive-ready dashboards that translate raw data into strategic growth decisions.
-    My focus lies in retail analytics, cohort diagnostics, and revenue performance optimization.
-  </p>
-</section>
+.hero {
+  text-align: center;
+  background: #1F1F1F;
+  color: white;
+}
 
-<section id="projects" class="projects">
-  <h2>Featured Project</h2>
-  <div class="project-card">
-    <h3>Blinkit Retail Revenue Intelligence</h3>
-    <p>
-      A Power BI dashboard analyzing 8,523 retail records to uncover expansion efficiency,
-      category concentration, and Tier 3 growth leverage.
-    </p>
-    <a href="https://github.com/yourusername/blinkit-repo" target="_blank">View on GitHub</a>
-  </div>
-</section>
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
 
-<section class="skills">
-  <h2>Skills</h2>
-  <ul>
-    <li>Power BI</li>
-    <li>SQL</li>
-    <li>Excel</li>
-    <li>Retail Analytics</li>
-    <li>Cohort Analysis</li>
-  </ul>
-</section>
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
 
+.btn {
+  padding: 10px 25px;
+  background: #F8CB45;
+  color: #1F1F1F;
+  text-decoration: none;
+  font-weight: bold;
+}
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<title>Arya | Revenue Intelligence & Analytics</title>
-<link rel="stylesheet" href="style.css">
-</head>
-<body>
+.about, .projects, .skills, .contact {
+  max-width: 900px;
+  margin: auto;
+}
 
-<section class="hero">
-  <h1>Arya</h1>
-  <p>Data Analyst focused on revenue intelligence, growth strategy, and performance optimization.</p>
-  <a href="#projects" class="btn">View Work</a>
-</section>
+.project-card {
+  background: #f5f5f5;
+  padding: 30px;
+  border-left: 5px solid #54B226;
+}
 
-<section class="about">
-  <h2>About</h2>
-  <p>
-    I build executive-ready dashboards that translate raw data into strategic growth decisions.
-    My focus lies in retail analytics, cohort diagnostics, and revenue performance optimization.
-  </p>
-</section>
+.skills ul {
+  list-style: none;
+  padding: 0;
+}
 
-<section id="projects" class="projects">
-  <h2>Featured Project</h2>
-  <div class="project-card">
-    <h3>Blinkit Retail Revenue Intelligence</h3>
-    <p>
-      A Power BI dashboard analyzing 8,523 retail records to uncover expansion efficiency,
-      category concentration, and Tier 3 growth leverage.
-    </p>
-    <a href="https://github.com/yourusername/blinkit-repo" target="_blank">View on GitHub</a>
-  </div>
-</section>
-
-<section class="skills">
-  <h2>Skills</h2>
-  <ul>
-    <li>Power BI</li>
-    <li>SQL</li>
-    <li>Excel</li>
-    <li>Retail Analytics</li>
-    <li>Cohort Analysis</li>
-  </ul>
-</section>
-
-<section class="contact">
-  <h2>Contact</h2>
-  <p>Email: your.email@example.com</p>
-  <p>LinkedIn: linkedin.com/in/yourprofile</p>
-</section>
-
-</body>
-</html>
-
-
-<section class="contact">
-  <h2>Contact</h2>
-  <p>Email: your.email@example.com</p>
-  <p>LinkedIn: linkedin.com/in/yourprofile</p>
-</section>
-
-</body>
-</html>
+.skills li {
+  display: inline-block;
+  margin-right: 15px;
+  background: #F8CB45;
+  padding: 5px 10px;
+}
