@@ -1,4 +1,4 @@
-# Arya Jain - Data Analysis Portfolio
+# Arya Gadekar - Data Analyst Portfolio
 
 Welcome. This single-page portfolio shows how I turn messy data into decisions people can act on. Read the short case studies below, check the interactive dashboards, and feel free to reach out.
 
@@ -11,10 +11,21 @@ Contact
 
 ## About me
 
-Hi, I’m Arya. I build dashboards and analytics that help teams move faster and make better decisions. I focus on clarity and impact: actionable KPIs, automated reporting, and visual stories that stakeholders understand at a glance.  
-I enjoy messy datasets, tight timelines, and turning imperfect data into clear recommendations.
+Hi, I’m Arya.
 
-My background includes hands-on experience with Power BI, Tableau, SQL, Python, and advanced Excel. I’ve reduced reporting effort and improved decision speed through automation and better KPI design. :contentReference[oaicite:1]{index=1}
+I analyze data for a living, but what I really do is find clarity in chaos. Most people see spreadsheets and dashboards. I see stories. For me, data is just human behavior translated into numbers. Every trend has a reason behind it, and I love discovering that reason.
+
+I never dreamed of writing SQL queries or building Power BI dashboards. But I have always been curious. As a kid, I asked endless questions. Why do people like certain things? Why do trends change? Why do some businesses succeed while others fail? Why do perfect ideas fall apart in reality? Over time, data became my way of finding real and honest answers.
+
+I enjoy diving into messy datasets and turning them into insights people can actually use. I ask questions until things start making sense. Nothing makes me happier than creating a clean, meaningful dashboard that tells a story without needing an explanation. My favorite moment is when someone looks at a visual and says, “Now I get it.”
+
+I love solving problems that look confusing at first and turning them into something simple and clear. Give me unclear requirements, scattered data, and a tight deadline, and I will still find a way to make it work with coffee and a good playlist by my side.
+
+Outside work, I love traveling, stories, and discovering new things. I love long bus rides to places I can’t pronounce, airports at odd hours, and fleeting conversations with strangers who leave a mark. Reading gives me what dashboards cannot: perspective, emotion, and a window into worlds I’ve never stepped into. I try to grow a little every day, not by chasing big milestones, but by enjoying the small moments along the way.
+
+I like working with people who are kind, driven, and genuine. People who care about doing good work and don’t complicate life for no reason.
+
+That’s me. The rest is in my experience section if you’re still interested. :contentReference[oaicite:1]{index=1}
 
 ---
 
@@ -29,11 +40,6 @@ Impact: Reduced stockouts for the demo dataset and produced a reorder policy tha
 Tools: SQL, Python (scikit-learn), Power BI  
 What I did: Cleaned transactional and engagement data, defined behavioral segments, built a churn model, and translated outputs into retention playbooks and dashboard visualizations.  
 Impact: Prioritized top-20% of customers for targeted campaigns based on LTV estimates and created an intuitive KPI dashboard for monthly executive reviews.
-
-### 3) Sentiment Mining for Product Feedback  
-Tools: Python (NLP), Tableau / Power BI  
-What I did: Scraped and processed product reviews, performed sentiment and topic modeling, surfaced recurring issues, and recommended product and communications fixes.  
-Impact: Delivered prioritized product fixes and a weekly dashboard that non-technical product managers used to track sentiment trends.
 
 ---
 
