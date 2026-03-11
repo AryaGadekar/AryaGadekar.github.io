@@ -1,19 +1,20 @@
 
 /* --- 1. Variables (Modern Tech Palette) --- */
+/* --- COLOR PALETTE (Purple Theme) --- */
 :root {
 
-    /* Main Colors (Your palette applied to template variables) */
-    --primary-color: #0a2b49;      /* Dark navy - hero & footer */
-    --secondary-color: #24496b;    /* Navigation */
-    --accent-color: #446d92;       /* Buttons & highlights */
+    /* Main Colors */
+    --primary-color: #382456;      /* Deep purple - hero & footer */
+    --secondary-color: #53415d;    /* Navigation */
+    --accent-color: #664870;       /* Buttons & highlights */
 
     /* Backgrounds */
-    --light-bg-color: #ebf2f7;     /* Page background */
+    --light-bg-color: #c4b9cf;     /* Page background */
     --card-bg-color: #ffffff;
 
     /* Text */
-    --dark-text-color: #0a2b49;
-    --light-text-color: #446d92;
+    --dark-text-color: #382456;
+    --light-text-color: #7c557c;
 
     /* Fonts */
     --font-heading: 'Playfair Display', serif;
