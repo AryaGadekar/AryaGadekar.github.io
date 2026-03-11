@@ -526,3 +526,28 @@ border-color:#ff4fa3;
 
 .project-card { transition: transform .18s ease, box-shadow .18s ease; }
 .project-card:hover { transform: translateY(-6px); box-shadow: 0 10px 30px rgba(0,0,0,.12); }
+
+.contact-links{
+margin-top:20px;
+display:flex;
+flex-direction:column;
+gap:12px;
+}
+
+.contact-item{
+display:flex;
+align-items:center;
+gap:10px;
+text-decoration:none;
+color:#333;
+font-size:16px;
+}
+
+.contact-item i{
+color:#ff4fa3;
+font-size:18px;
+}
+
+.contact-item:hover{
+color:#ff4fa3;
+}
