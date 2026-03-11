@@ -523,3 +523,6 @@ background:#ff4fa3;
 color:white;
 border-color:#ff4fa3;
 }
+
+.project-card { transition: transform .18s ease, box-shadow .18s ease; }
+.project-card:hover { transform: translateY(-6px); box-shadow: 0 10px 30px rgba(0,0,0,.12); }
