@@ -534,12 +534,18 @@ gap:10px;
 }
 
 .skill-tags span{
-background:#f4f6fb;
-border:1px solid #e4e8f2;
+background: var(--accent-color);   /* green */
+color: white;
+border: none;
 padding:8px 14px;
 border-radius:20px;
 font-size:14px;
-transition:all 0.2s ease;
+transition:all 0.25s ease;
+}
+
+.skill-tags span:hover{
+background: var(--secondary-color);  /* blue */
+color: white;
 }
 
 .skill-tags span:hover{
