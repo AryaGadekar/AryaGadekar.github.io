@@ -457,3 +457,38 @@ footer p {
         padding-bottom: 30px;
     }
 }
+
+/* --- SKILLS SECTION IMPROVEMENT --- */
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 28px;
+    margin-top: 30px;
+}
+
+.skill-block {
+    padding: 22px;
+    border-radius: 10px;
+    background: #fafafa;
+    border: 1px solid #eee;
+    transition: transform 0.2s ease;
+}
+
+.skill-block:hover {
+    transform: translateY(-4px);
+}
+
+.skill-block h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.skill-block i {
+    margin-right: 8px;
+    color: #ff4fa3;
+}
+
+.skill-block p {
+    line-height: 1.6;
+}
