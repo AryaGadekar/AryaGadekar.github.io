@@ -17,7 +17,44 @@
     --font-heading: 'Playfair Display', serif;
     --font-body: 'Lato', sans-serif;
 }
+:root {
+--primary-dark: #0a2b49;
+--primary: #24496b;
+--accent: #446d92;
+--soft: #98b1c8;
+--background: #ebf2f7;
+}
 
+body {
+background-color: var(--background);
+}
+header {
+background-color: var(--primary-dark);
+color: white;
+}
+nav {
+background-color: var(--primary);
+}
+.btn {
+background-color: var(--accent);
+border-color: var(--accent);
+}
+
+.btn:hover {
+background-color: var(--primary);
+}
+.skill-tags span {
+background: var(--soft);
+color: #0a2b49;
+border: none;
+}
+a {
+color: var(--accent);
+}
+
+a:hover {
+color: var(--primary-dark);
+}
 /* --- 2. Base & Reset Styles --- */
 * {
     margin: 0;
