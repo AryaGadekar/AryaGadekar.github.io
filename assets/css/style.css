@@ -282,17 +282,12 @@ button,
   border: none;
   transition: background-color 0.3s ease;
 }
-.project-buttons a{
-background: var(--accent-color);
+button:hover,
+.project-buttons a:hover {
+background: var(--accent-color);   /* green on hover */
 color: white;
-padding: 12px 22px;
-border-radius: 8px;
-display: inline-block;
-font-weight: 600;
-border: none;
-transition: background 0.3s ease;
+opacity: 1;
 }
-
 .btn:active{
     background:var(--accent-color);
     transform:scale(0.97);
