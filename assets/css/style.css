@@ -194,7 +194,7 @@ background:#f4f9f6;
 .about-content {
     display: flex;
     align-items: center;
-    gap: 60px;
+    gap: 40px;
     max-width: 960px;
     margin: 0 auto;
     text-align: left;
