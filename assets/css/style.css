@@ -282,11 +282,15 @@ button,
   border: none;
   transition: background-color 0.3s ease;
 }
-
-.project-card a {
-  border: none !important;
-  background-color: #659E45 !important;
-  color: white !important;
+.project-buttons a{
+background: var(--accent-color);
+color: white;
+padding: 12px 22px;
+border-radius: 8px;
+display: inline-block;
+font-weight: 600;
+border: none;
+transition: background 0.3s ease;
 }
 
 .btn:active{
