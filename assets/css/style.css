@@ -92,9 +92,11 @@ a:hover {
     opacity: 0.8;
 }
 
-img {
-    max-width: 100%;
-    height: auto;
+.project-card img {
+    width:100%;
+    height:280px;
+    object-fit: cover;
+    border-bottom:1px solid #eee;
 }
 
 /* --- 3. Header --- */
