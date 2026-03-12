@@ -270,7 +270,7 @@ box-shadow:0 18px 45px rgba(0,0,0,0.12);
 
 button,
 #contact button,
-.btn {
+.project-card a {
   display: inline-block;
   background-color: #659E45;
   color: white;
@@ -279,11 +279,14 @@ button,
   text-decoration: none;
   font-size: 16px;
   font-weight: 500;
+  border: none;
   transition: background-color 0.3s ease;
 }
 
-.btn:hover {
-  background-color: #4f7d35;
+.project-card a {
+  border: none !important;
+  background-color: #659E45 !important;
+  color: white !important;
 }
 
 .btn:active{
