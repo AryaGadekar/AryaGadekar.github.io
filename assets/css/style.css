@@ -270,20 +270,20 @@ box-shadow:0 18px 45px rgba(0,0,0,0.12);
 
 button,
 #contact button,
-button {
-  background-color: #1b5e85;   /* default blue */
+.btn {
+  display: inline-block;
+  background-color: #659E45;
   color: white;
-  width: 100%;
-  padding: 14px 20px;
-  border: none;
-  border-radius: 8px;
+  padding: 14px 24px;
+  border-radius: 10px;
+  text-decoration: none;
   font-size: 16px;
-  cursor: pointer;
+  font-weight: 500;
   transition: background-color 0.3s ease;
 }
 
-button:hover {
-  background-color: #659E45;   /* green when hovered */
+.btn:hover {
+  background-color: #4f7d35;
 }
 
 .btn:active{
