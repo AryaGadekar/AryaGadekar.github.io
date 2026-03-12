@@ -21,6 +21,17 @@
     <!-- Your Stylesheet -->
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
+
+    <script>
+const skills = document.querySelectorAll('.skill-tags span');
+
+skills.forEach(skill => {
+  skill.addEventListener('click', () => {
+    skills.forEach(s => s.classList.remove('active'));
+    skill.classList.add('active');
+  });
+});
+</script>
 <body>
 
 <!-- HEADER SECTION -->
