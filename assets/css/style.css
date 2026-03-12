@@ -268,17 +268,7 @@ box-shadow:0 18px 45px rgba(0,0,0,0.12);
     margin-top: auto;
 }
 
-button, #contact button, .project-card a { display: inline-block; background-color: #659E45; color: white; padding: 14px 24px; border-radius: 10px; text-decoration: none; font-size: 16px; font-weight: 500; border: none; transition: background-color 0.3s ease; } .project-card a { border: none !important; background-color: #659E45 !important; color: white !important; }
-.btn:active{
-    background:var(--accent-color);
-    transform:scale(0.97);
-}
-
-.btn-secondary {
-    background: transparent;
-    color: var(--primary-color);
-    border: 2px solid var(--primary-color);
-}
+button, #contact button, .project-card a { display: inline-block; background-color: #659E45; color: white; padding: 14px 24px; border-radius: 10px; text-decoration: none; font-size: 16px; font-weight: 500; border: none; transition: background-color 0.3s ease; } .project-card a { border: none !important; background-color: #659E45 !important; color: white !important; } .btn:active{ background:var(--accent-color); transform:scale(0.97); } .btn-secondary { background: transparent; color: var(--primary-color); border: 2px solid var(--primary-color); }
 
 
 /* --- 6. Tabular Skills Section --- */
