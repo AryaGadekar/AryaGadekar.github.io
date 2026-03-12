@@ -282,13 +282,8 @@ button {
   transition: background-color 0.3s ease;
 }
 
-button:hover,
-#contact button:hover,
-.btn:hover {
-    background-color: #659E45; /* green on hover */
-
-    button:hover {
-  background-color: #659E45 !important;
+button:hover {
+  background-color: #659E45;   /* green when hovered */
 }
 
 .btn:active{
