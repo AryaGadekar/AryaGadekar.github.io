@@ -22,30 +22,6 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
-    <script>
-const skills = document.querySelectorAll('.skill-tags span');
-
-skills.forEach(skill => {
-  skill.addEventListener('click', () => {
-    skills.forEach(s => s.classList.remove('active'));
-    skill.classList.add('active');
-  });
-});
-</script>
-    <script>
-document.querySelectorAll(".skill-tags span").forEach(skill => {
-  skill.addEventListener("click", function () {
-
-    document.querySelectorAll(".skill-tags span")
-      .forEach(s => s.classList.remove("active"));
-
-    this.classList.add("active");
-
-  });
-});
-</script>
-    <script>
-
       <script>
 const skills = document.querySelectorAll(".skill-tags span");
 
@@ -296,3 +272,17 @@ I usually reply quickly, and I’m always happy to connect with people who enjoy
 
 </body>
 </html>
+<script>
+document.querySelectorAll(".skill-tags span").forEach(skill => {
+  skill.addEventListener("click", function () {
+
+    document.querySelectorAll(".skill-tags span")
+      .forEach(s => s.classList.remove("active"));
+
+    this.classList.add("active");
+
+  });
+});
+</script>
+
+<script src="assets/js/main.js"></script>
