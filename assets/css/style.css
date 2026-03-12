@@ -623,3 +623,11 @@ color:white;
 #contact button:hover{
 background: var(--accent-color);
 }
+#contact .contact-form button{
+background: var(--primary-color) !important;
+color: white;
+}
+
+#contact .contact-form button:hover{
+background: var(--accent-color) !important;
+}
