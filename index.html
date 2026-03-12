@@ -41,6 +41,19 @@ document.querySelectorAll('.skill-tags span').forEach(skill => {
 
     this.classList.add('active');
 
+      <script>
+const skills = document.querySelectorAll(".skill-tags span");
+
+skills.forEach(skill => {
+  skill.addEventListener("click", function() {
+
+    skills.forEach(s => s.classList.remove("active"));
+
+    this.classList.add("active");
+
+  });
+});
+</script>
   });
 });
 </script>
