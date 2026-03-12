@@ -33,13 +33,18 @@ skills.forEach(skill => {
 });
 </script>
     <script>
-document.querySelectorAll('.skill-tags span').forEach(skill => {
-  skill.addEventListener('click', function() {
+document.querySelectorAll(".skill-tags span").forEach(skill => {
+  skill.addEventListener("click", function () {
 
-    document.querySelectorAll('.skill-tags span')
-      .forEach(s => s.classList.remove('active'));
+    document.querySelectorAll(".skill-tags span")
+      .forEach(s => s.classList.remove("active"));
 
-    this.classList.add('active');
+    this.classList.add("active");
+
+  });
+});
+</script>
+    <script>
 
       <script>
 const skills = document.querySelectorAll(".skill-tags span");
@@ -63,7 +68,6 @@ skills.forEach(skill => {
         <!--💡UPDATE: Change to your name and title-->
         <h1>Arya Gadekar</h1>
         <p>Data Analytics | Product Analytics | Business Intelligence & Data Visualization</p>
-        <div class="social-links">
             <!--💡UPDATE: Add your social media links and CV file-->
             <div class="social-links">
 
