@@ -32,33 +32,19 @@
 /* --- SKILL TAG DESIGN --- */
 /* SKILL TAGS */
 
-.skill-tags{
-display:flex;
-flex-wrap:wrap;
-gap:12px;
-margin-top:10px;
-}
-
 .skill-tags span{
-background:#94C175;        /* default green */
+background:#94C175;
 color:white;
 padding:12px 22px;
 border-radius:30px;
 font-size:16px;
 cursor:pointer;
 transition:all 0.25s ease;
-display:inline-block;
-}
-
-.skill-tags span:hover{
-transform:translateY(-2px);
 }
 
 .skill-tags span.active{
-background:#73A4C5;        /* blue when clicked */
+background:#73A4C5;
 }
-/* Skill chips */
-
 
 /* default state */
 
@@ -97,10 +83,11 @@ img {
 
 /* --- 3. Header --- */
 header {
-    background: var(--primary-color);
-    color: var(--white-color);
-    padding: 70px 0;
-    text-align: center;
+background: var(--primary-color);
+color: var(--white-color);
+padding: 60px 0 40px 0;
+text-align: center;
+margin-bottom: -10px;
 }
 
 header h1 {
@@ -134,12 +121,11 @@ header p {
 
 /* --- 4. Navigation --- */
 nav {
-    background-color: #0f5c86;
-    backdrop-filter: blur(5px);
+    background-color: #73A4C5;
     position: sticky;
     top: 0;
     z-index: 1000;
-    border-bottom: 1px solid var(--secondary-color);
+    border-bottom: none;
 }
 
 nav ul {
