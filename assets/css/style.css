@@ -615,3 +615,11 @@ color:var(--accent-color);
 .contact-item:hover{
 color:var(--accent-color);
 }
+#contact button{
+background: var(--primary-color);
+color:white;
+}
+
+#contact button:hover{
+background: var(--accent-color);
+}
