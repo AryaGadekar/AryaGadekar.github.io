@@ -30,39 +30,18 @@
 }
 
 /* --- SKILL TAG DESIGN --- */
-
-/* Skill chips */
+/* SKILL TAGS */
 
 .skill-tags{
 display:flex;
 flex-wrap:wrap;
 gap:12px;
+margin-top:10px;
 }
 
 .skill-tags span{
-background:#94C175;   /* default green */
+background:#94C175;        /* default green */
 color:white;
-border:none;
-padding:12px 22px;
-border-radius:30px;
-font-size:16px;
-cursor:pointer;
-transition:all 0.25s ease;
-}
-
-.skill-tags span:hover{
-transform:translateY(-2px);
-}
-
-.skill-tags span.active{
-background:#73A4C5;   /* blue when clicked */
-}
-
-/* default state */
-.skill-tags span{
-background: var(--accent-hover);   /* green #94C175 */
-color:white;
-border:none;
 padding:12px 22px;
 border-radius:30px;
 font-size:16px;
@@ -71,15 +50,17 @@ transition:all 0.25s ease;
 display:inline-block;
 }
 
-/* hover state */
 .skill-tags span:hover{
-background: var(--secondary-color);   /* blue #73A4C5 */
+transform:translateY(-2px);
 }
 
-/* clicked state */
 .skill-tags span.active{
-background: var(--secondary-color);   /* blue */
+background:#73A4C5;        /* blue when clicked */
 }
+/* Skill chips */
+
+
+/* default state */
 
 html {
     scroll-behavior: smooth;
