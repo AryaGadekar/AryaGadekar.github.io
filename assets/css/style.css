@@ -641,3 +641,26 @@ color: white;
 #contact .contact-form button:hover{
 background: var(--accent-color) !important;
 }
+<footer>
+    <div class="container">
+        <p>&copy; 2026 Arya Gadekar. All rights reserved.</p>
+    </div>
+</footer>
+
+<script>
+document.querySelectorAll(".skill-tags span").forEach(skill => {
+  skill.addEventListener("click", function () {
+
+    document.querySelectorAll(".skill-tags span")
+      .forEach(s => s.classList.remove("active"));
+
+    this.classList.add("active");
+
+  });
+});
+</script>
+
+<script src="assets/js/main.js"></script>
+
+</body>
+</html>
