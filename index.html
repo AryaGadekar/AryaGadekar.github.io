@@ -22,20 +22,6 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
-      <script>
-const skills = document.querySelectorAll(".skill-tags span");
-
-skills.forEach(skill => {
-  skill.addEventListener("click", function() {
-
-    skills.forEach(s => s.classList.remove("active"));
-
-    this.classList.add("active");
-});
-</script>
-  });
-});
-</script>
 <body>
 
 <!-- HEADER SECTION -->
@@ -285,4 +271,16 @@ document.querySelectorAll(".skill-tags span").forEach(skill => {
 });
 </script>
 
+<script>
+document.querySelectorAll(".skill-tags span").forEach(skill => {
+  skill.addEventListener("click", function () {
+    document.querySelectorAll(".skill-tags span")
+      .forEach(s => s.classList.remove("active"));
+    this.classList.add("active");
+  });
+});
+</script>
+
 <script src="assets/js/main.js"></script>
+</body>
+</html>
