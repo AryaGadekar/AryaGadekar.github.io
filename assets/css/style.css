@@ -416,6 +416,10 @@ justify-content:center;
     border: none;
     cursor: pointer;
 }
+.project-buttons a{
+width:180px;
+text-align:center;
+}
 
 /* --- 8. Footer --- */
 footer {
