@@ -30,16 +30,26 @@
 }
 
 .skill-tags span{
-background: var(--soft-accent);
-color: var(--dark-text-color);
-color: white;
-border-color: var(--accent-color);
-transform: translateY(-2px);
+background:#94C175;   /* default green */
+color:white;
+border:none;
+padding:8px 14px;
+border-radius:20px;
+font-size:14px;
+cursor:pointer;
+transition:all 0.25s ease;
+}
+
+.skill-tags span.active{
+background:#73A4C5;   /* blue when selected */
+color:white;
 }
 a {
 color: var(--accent);
 }
-
+.skill-tags span:hover{
+transform:translateY(-2px);
+}
 a:hover {
 color: var(--primary-dark);
 }
@@ -53,7 +63,18 @@ color: var(--primary-dark);
 html {
     scroll-behavior: smooth;
 }
+<script>
+const skills = document.querySelectorAll('.skill-tags span');
 
+skills.forEach(skill => {
+    skill.addEventListener('click', () => {
+
+        skills.forEach(s => s.classList.remove('active'));
+        skill.classList.add('active');
+
+    });
+});
+</script>
 body {
     font-family: var(--font-body);
     font-weight: 400;
