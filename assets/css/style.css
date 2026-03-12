@@ -30,19 +30,24 @@
 }
 
 .skill-tags span{
-background:#94C175;   /* default green */
+background:#94C175;            /* default green */
 color:white;
 border:none;
-padding:8px 14px;
-border-radius:20px;
-font-size:14px;
+padding:12px 22px;             /* restores larger size */
+border-radius:30px;
+font-size:16px;                /* larger text */
 cursor:pointer;
 transition:all 0.25s ease;
+display:inline-block;
 }
 
 .skill-tags span.active{
-background:#73A4C5;   /* blue when selected */
+background:#73A4C5;            /* blue when clicked */
 color:white;
+}
+
+.skill-tags span:hover{
+transform:translateY(-2px);
 }
 a {
 color: var(--accent);
@@ -640,3 +645,13 @@ color:var(--accent-color);
 .contact-item:hover{
 color:var(--accent-color);
 }
+<script>
+const skills = document.querySelectorAll('.skill-tags span');
+
+skills.forEach(skill => {
+  skill.addEventListener('click', () => {
+    skills.forEach(s => s.classList.remove('active'));
+    skill.classList.add('active');
+  });
+});
+</script>
