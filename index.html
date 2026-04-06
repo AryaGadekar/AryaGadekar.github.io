@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -212,7 +213,11 @@ You can contact me directly at
 I usually reply quickly, and I’m always happy to connect with people who enjoy solving problems with data.
 </p>
 
-    <input type="hidden" name="_next" value="https://aryagadekar.github.io/#contact">
+</div>
+</section>
+        
+        <!--💡UPDATE: Go to formsubmit.co and replace the email with your own-->
+        <input type="hidden" name="_next" value="https://aryagadekar.github.io/#contact">
         <form action="https://formsubmit.co/aryagadekar2001@gmail.com" method="POST" class="contact-form">
             <input type="hidden" name="_captcha" value="false">
             <input type="hidden" name="_subject" value="New message from portfolio website">
@@ -220,31 +225,28 @@ I usually reply quickly, and I’m always happy to connect with people who enjoy
             <p> Or, if it’s easier, feel free to send me a message using the form below. </p>
 
             <!-- Form Fields -->
-            <p class="contact-message">
-Or, if it’s easier, feel free to send me a message using the form below.
-</p>
-
-<!-- FULL NAME -->
-<input type="text" name="name" placeholder="Full Name" required>
-
-<!-- EMAIL + PHONE ROW -->
-<div class="row">
-    <input type="email" name="email" placeholder="Email" required>
-    <input type="text" name="phone" placeholder="Phone Number">
-</div>
-
-<!-- REQUIREMENT -->
-<input type="text" name="subject" placeholder="Your Requirement (e.g. Data Analysis, Dashboard, etc.)">
-
-<!-- MESSAGE -->
-<textarea name="message" placeholder="Message"></textarea>
-
-<!-- BUTTON -->
-<button type="submit">Let’s Talk</button>
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name" placeholder="Your name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" placeholder="Your email" required>
+            </div>
+            <div class="form-group">
+                <label for="subject">Subject</label>
+                <input type="text" name="subject" id="subject" placeholder="Subject" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea name="message" id="message" rows="6" placeholder="Your message" required></textarea>
+            </div>
+            
+            <!-- Submit Button -->
+            <button type="submit" class="btn">Send Message</button>
 
         </form>
-    
-</div>
+    </div>
 </section>
 
 <!-- FOOTER -->
