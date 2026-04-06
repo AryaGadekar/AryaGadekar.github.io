@@ -640,3 +640,9 @@ color: white;
 #contact .contact-form button:hover{
 background: var(--accent-color) !important;
 }
+
+#contact .container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
