@@ -628,3 +628,25 @@ color: white;
 #contact .contact-form button:hover{
 background: var(--accent-color) !important;
 }
+
+/* TEXTAREA */
+.contact-form textarea {
+    border-radius: 20px;
+    min-height: 140px;
+}
+
+/* BUTTON */
+.contact-form button {
+    width: 100%;
+    padding: 18px;
+    border-radius: 40px;
+    background: #5f6368;
+    color: white;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background: #333;
+}
