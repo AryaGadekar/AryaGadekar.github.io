@@ -18,15 +18,6 @@ I like working with people who are kind, driven, and genuine. People who care ab
 
 That’s me. The rest is in my experience section if you’re still interested.
 
-## Projects
-
-This template is set up to showcase your best work. You can easily customize the project cards in the `index.html` file.
-
-### Project Title One
-*A brief description of your project, the tools used, and the key insights derived.*
-
-### Project Title Two
-*A brief description of your project, the tools used, and the key insights derived.*
 
 
 
